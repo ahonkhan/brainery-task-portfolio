@@ -4,10 +4,10 @@ import style from "./header.module.scss"
 import headerImg from "../../assets/Header/header-img.png"
 const Hero = () => {
     return (
-        <section id='home' className='py-[40px] md:py-[84px] xl:py-[104px] 2xl:py-[133px]'>
+        <section id='home' className='py-[40px]  md:py-[84px] xl:py-[104px] 2xl:py-[133px]'>
             <div className="site-container">
                 <div className={`${style.headerWrapper}  md:items-center 2xl:items-start justify-start flex flex-col gap-7  md:gap-1 xl:gap-0 md:flex-row  text-center md:text-start`}>
-                    <div className={`${style.headerLeft} 2xl:mt-[143.54px] w-full lg:w-[550px] xl:w-[600px] 2xl:w-[790.67px] 2xl:h-[442.67px] flex flex-col gap-7 2xl:gap-8 md:items-start items-center`}>
+                    <div className={`${style.headerLeft}   2xl:mt-[143.54px] w-full lg:w-[550px] xl:w-[600px] 2xl:w-[790.67px] 2xl:h-[442.67px] flex flex-col gap-7 2xl:gap-[53.33px] md:items-start items-center`}>
                         <div className={`${style.content} flex flex-col  gap-5 md:gap-4 2xl:gap-8 items-center md:items-start`}>
                             <p className={`${style.subtitle}`}>Hey, I am John</p>
                             <h1 className={`${style.mainTitle}`}>I create <span className='text-Primary'>product design</span> and brand experience</h1>

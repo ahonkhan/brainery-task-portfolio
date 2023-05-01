@@ -1,0 +1,60 @@
+.active {
+    border-bottom: 4px solid #5E3BEE;
+    border-color: #5E3BEE !important;
+
+}
+
+.SkillCardDefault {
+    /* BG Shade */
+    background: #F5FCFF;
+    /* Primary */
+    border-radius: 10.6667px;
+    transition: all 300ms;
+    user-select: none;
+    border-bottom-width:4px;
+    border-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        border-bottom: 4px solid #5E3BEE;
+
+    }
+
+    .cardImg {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 10.6667px;
+
+
+    }
+
+    .cardTitle {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        // font-size: 32px;
+        line-height: 140%;
+
+        /* identical to box height, or 45px */
+
+        /* Heading color */
+        color: #282938;
+
+
+    }
+
+    .cardText {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        // font-size: 21.3333px;
+        line-height: 150%;
+
+        /* or 32px */
+
+        /* Body */
+        color: #1C1E53;
+
+
+    }
+}
