@@ -1,4 +1,5 @@
-.btnOutlinePrimary {
+.btnOutlinePrimary,
+.ButtonFillPrimary {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,7 +17,9 @@
 // for medium devices
 
 @media screen and (min-width: 991px) {
-    .btnOutlinePrimary {
+
+    .btnOutlinePrimary,
+    .ButtonFillPrimary {
         padding: 14px 32px;
         font-size: 16px;
     }
@@ -27,7 +30,8 @@
 // for learge devices
 @media screen and (min-width: 1536px) {
 
-    .btnOutlinePrimary {
+    .btnOutlinePrimary,
+    .ButtonFillPrimary {
         padding: 18.6667px 42.6667px;
         gap: 10.67px;
         border-width: 1.33333px;

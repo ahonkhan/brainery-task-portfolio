@@ -1,0 +1,120 @@
+.headerWrapper {
+    .headerLeft {
+        .content {
+
+            .subtitle {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 150%;
+                color: #282938;
+            }
+
+            .mainTitle {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 120%;
+                color: #282938;
+            }
+
+            .overview {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                /* or 36px */
+                /* Body */
+                color: #1C1E53;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .headerWrapper {
+        .headerLeft {
+            .content {
+                .subtitle {
+                    font-size: 17px;
+                }
+
+                .mainTitle {
+                    font-size: 44px;
+                }
+
+                .overview {
+                    font-size: 17px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .headerWrapper {
+        .headerLeft {
+            .content {
+                .subtitle {
+                    font-size: 17px;
+                }
+
+                .mainTitle {
+                    font-size: 48px;
+                }
+
+                .overview {
+                    font-size: 17px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .headerWrapper {
+        .headerLeft {
+            .content {
+                .subtitle {
+                    font-size: 17px;
+                }
+
+                .mainTitle {
+                    font-size: 54px;
+                }
+
+                .overview {
+                    font-size: 17px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .headerWrapper {
+        .headerLeft {
+            .content {
+                .subtitle {
+                    font-size: 21.3333px;
+                }
+
+                .mainTitle {
+                    font-size: 74.6667px;
+                }
+
+                .overview {
+                    font-size: 24px;
+                }
+            }
+        }
+
+    }
+}
