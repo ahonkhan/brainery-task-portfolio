@@ -1,9 +1,12 @@
 import React from 'react'
-
+import "./App.scss"
+import Landingpage from './pages/Landingpage'
 const App = () => {
-  return (
-    <div>App</div>
-  )
+    return (
+        <>
+            <Landingpage />
+        </>
+    )
 }
 
 export default App

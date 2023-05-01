@@ -1,0 +1,36 @@
+.navWrapper {
+    .navMenu {
+
+        .navList {
+            .navLink {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 150%;
+                color: #0F1221;
+                transition: all 300ms;
+
+                &:hover {
+                    color: #5E3BEE;
+                }
+
+            }
+        }
+    }
+}
+// for medium devices
+@media screen and (min-width: 991px) {
+    .navLink {
+        font-size: 16px !important;
+    }
+}
+
+
+// for large devices
+@media screen and (min-width: 1536px) {
+    .navLink {
+        font-size: 21.3333px !important;
+        line-height: 150% !important;
+    }
+}

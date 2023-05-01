@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.site-container {
+  @apply px-5 md:px-[24px] xl:px-[64px] 2xl:px-[85.33px];
+}
