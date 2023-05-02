@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import logoLg from "../../assets/Navbar/logo-lg.png"
 import logoMd from "../../assets/Navbar/logo-md.svg"
 import { Link } from 'react-router-dom'
 import { ButtonOutlinePrimary } from '../Buttons/Buttons'
 import style from "./navbar.module.scss"
 import { BiMenu } from "react-icons/bi"
+import { GetContext } from '../../context/Context'
 const Navbar = () => {
     const [fixedNavStatus, setFixedNavStatus] = useState(false)
     window.addEventListener("scroll", () => {
@@ -14,8 +15,10 @@ const Navbar = () => {
             setFixedNavStatus(false)
         }
     })
+
+    const context = useContext(GetContext)
     return (
-        <nav id='navbar' className={`${style.navBar} duration-300 w-full bg-white ${fixedNavStatus ? 'md:h-[70px] 3xl:h-[100px] py-[10px] md:py-[15px] 3xl:py-[25.33px] ' : "md:h-[90px] 3xl:h-[120px] py-[14px] md:py-[19px] 3xl:py-[25.33px] "}  sticky top-0 left-0 flex items-center  `}>
+        <nav id='navbar' className={`${style.navBar} duration-300 w-full bg-white ${fixedNavStatus ? 'md:h-[70px] 3xl:h-[100px] py-[10px] md:py-[15px] 3xl:py-[25.33px] ' : "md:h-[90px] 3xl:h-[120px] py-[14px] md:py-[19px] 3xl:py-[25.33px] "}  sticky top-0 z-[999] left-0 flex items-center  `}>
             <div className="site-container w-full">
                 <div className={`${style.navWrapper} lg:h-[52px] 3xl:h-[69.33px] flex items-center justify-between gap-[32px] 3xl:gap-[42.67px]`}>
                     <div className="nav__logo shrink-0">
@@ -51,7 +54,7 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div className="mobile-menubtn md:hidden">
-                        <button> <BiMenu className='text-[28px] text-Heading' /> </button>
+                        <button onClick={()=>context.setSidebarStatus(true)}> <BiMenu className='text-[28px] text-Heading' /> </button>
                     </div>
                 </div>
             </div>

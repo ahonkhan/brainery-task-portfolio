@@ -7,8 +7,10 @@ import Blog from '../components/Blog/Blog'
 import Testimonial from '../components/Testimonial/Testimonial'
 import Contact from '../components/Contact/Contact'
 import FooterSection from '../components/Footer/Footer'
+import Sidebar from '../components/Sidebar/Sidebar'
 
 const Landingpage = () => {
+
     return (
         <>
             <Navbar />
@@ -19,6 +21,7 @@ const Landingpage = () => {
             <Testimonial />
             <Contact />
             <FooterSection />
+            <Sidebar />
 
         </>
     )
