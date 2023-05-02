@@ -1,0 +1,99 @@
+.inputDefault {
+    p {
+        font-weight: 400;
+        line-height: 150%;
+        color: #282938;
+    }
+
+    input {
+        padding: 16px;
+        // width: 496px;
+        // height: 64px;
+        color: #282938;
+        background: #FFFFFF;
+        /* Primary */
+        border: 1.33333px solid #5E3BEE;
+        border-radius: 8px;
+    }
+}
+
+.selectDefault {
+    p {
+        font-weight: 400;
+        line-height: 150%;
+        color: #282938;
+    }
+
+    button {
+        padding: 16px;
+        // width: 496px;
+        // height: 64px;
+        color: #282938;
+        background: #FFFFFF;
+        /* Primary */
+        border: 1.33333px solid #5E3BEE;
+        border-radius: 8px;
+    }
+}
+
+.textareaDefault {
+    p {
+        font-weight: 400;
+        line-height: 150%;
+        color: #282938;
+    }
+
+    textarea {
+        padding: 16px;
+        color: #282938;
+        background: #FFFFFF;
+        border: 1.33333px solid #5E3BEE;
+        border-radius: 8px;
+    }
+}
+
+.checkboxFieldDefault {
+    p {
+        font-weight: 400;
+        line-height: 150%;
+        color: #282938;
+
+
+    }
+
+    .checkboxBtn {
+        border: 1.33333px solid #5E3BEE;
+
+
+    }
+
+
+}
+
+.checkboxActive {
+    background-color: #5E3BEE !important;
+    position: relative;
+    padding: 2px;
+
+    &::after {
+        content: "\2713";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+    }
+}
+
+
+// select field
+.selectOptionWrapper {
+    margin-top: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    scrollbar-width: none;
+    
+
+    .selectOption {}
+}

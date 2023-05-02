@@ -5,3 +5,7 @@
 .site-container {
   @apply px-5 md:px-[24px] xl:px-[64px] 2xl:px-[85.33px];
 }
+
+.section-padding{
+  @apply 3xl:py-[149.333px] 2xl:py-[120px] xl:py-[100px] md:py-[80px] py-[64px];
+}

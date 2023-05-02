@@ -45,21 +45,10 @@
     }
 }
 
+.divider {
+    height: 1.33px;
 
-// // fixed nav
-// .navbarFixed {
-//     position: fixed;
-//     top: 0;
-//     width: 100%;
-//     animation: navbar 700ms ease-in-out forwards;
-// }
+    background: rgba(40, 41, 56, 0.55);
 
-// @keyframes navbar {
-//     0% {
-//         transform: translateY(-150%);
-//     }
 
-//     100% {
-//         transform: translateY(0%);
-//     }
-// }
+}

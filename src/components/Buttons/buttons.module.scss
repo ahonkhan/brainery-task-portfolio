@@ -1,5 +1,6 @@
 .btnOutlinePrimary,
-.ButtonFillPrimary {
+.ButtonFillPrimary,
+.btnPrimary {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,7 +20,7 @@
 @media screen and (min-width: 991px) {
 
     .btnOutlinePrimary,
-    .ButtonFillPrimary {
+    .ButtonFillPrimary,.btnPrimary {
         padding: 14px 32px;
         font-size: 16px;
     }
@@ -30,7 +31,7 @@
 @media screen and (min-width: 1536px) {
 
     .btnOutlinePrimary,
-    .ButtonFillPrimary {
+    .ButtonFillPrimary,.btnPrimary {
         padding: 16px 36px;
         border-width: 1.33333px;
         font-size: 18px
@@ -40,15 +41,20 @@
 @media screen and (min-width: 1740px) {
 
     .btnOutlinePrimary,
-    .ButtonFillPrimary {
+    .ButtonFillPrimary,.btnPrimary {
         padding: 18.6667px 42.6667px;
         gap: 10.67px;
         border-width: 1.33333px;
         border-radius: 5.33333px;
         font-size: 21.3333px;
     }
+    .btnPrimary{
+        border-radius: 8px !important;
+    }
 }
-
+.btnPrimary{
+    border-radius: 7px;
+}
 
 .SocialBtn {
     background: #E62872;
@@ -61,7 +67,8 @@
     gap: 12px;
     padding: 12px 16px;
     transition: all 300ms;
-    &:hover{
+
+    &:hover {
         opacity: 0.8;
     }
 
