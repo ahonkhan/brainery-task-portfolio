@@ -103,6 +103,27 @@
         .headerLeft {
             .content {
                 .subtitle {
+                    font-size: 18px;
+                }
+
+                .mainTitle {
+                    font-size: 54.6667px;
+                }
+
+                .overview {
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1740px) {
+    .headerWrapper {
+        .headerLeft {
+            .content {
+                .subtitle {
                     font-size: 21.3333px;
                 }
 

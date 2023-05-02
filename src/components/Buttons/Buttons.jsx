@@ -10,3 +10,10 @@ export const ButtonFillPrimary = ({ children }) => {
         <button className={`${style.btnOutlinePrimary} hover:bg-transparent bg-Primary text-white duration-300 font-Roboto hover:text-Primary border-Primary`}>{children}</button>
     )
 }
+
+export const SocialBtn = ({ children }) => {
+    return (
+        <button className={`${style.SocialBtn}`}>{children}</button>
+    )
+}
+

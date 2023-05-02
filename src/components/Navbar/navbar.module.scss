@@ -28,12 +28,18 @@
 // for large devices
 @media screen and (min-width: 1536px) {
     .navLink {
+        font-size:18px !important;
+    }
+
+
+}
+@media screen and (min-width: 1740px) {
+    .navLink {
         font-size: 21.3333px !important;
         line-height: 150% !important;
     }
 
     .navBar {
         box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
     }
 }

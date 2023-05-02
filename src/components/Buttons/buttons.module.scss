@@ -27,8 +27,17 @@
 }
 
 
-// for learge devices
 @media screen and (min-width: 1536px) {
+
+    .btnOutlinePrimary,
+    .ButtonFillPrimary {
+        padding: 16px 36px;
+        border-width: 1.33333px;
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width: 1740px) {
 
     .btnOutlinePrimary,
     .ButtonFillPrimary {
@@ -38,4 +47,50 @@
         border-radius: 5.33333px;
         font-size: 21.3333px;
     }
+}
+
+
+.SocialBtn {
+    background: #E62872;
+    box-shadow: 0px 1.33333px 2.66667px rgba(16, 24, 40, 0.05);
+    border-radius: 10.6667px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    transition: all 300ms;
+    &:hover{
+        opacity: 0.8;
+    }
+
+    img {
+        height: fit-content;
+        width: 20px;
+    }
+
+    span {
+        font-size: 14px;
+        line-height: 150%;
+
+    }
+}
+
+@media screen and (min-width: 1740px) {
+
+    .SocialBtn {
+        padding: 13.3333px 21.3333px;
+        gap: 16px;
+
+        img {
+            height: fit-content;
+            width: 32px;
+        }
+
+        span {
+            font-size: 21.3333px;
+        }
+    }
+
 }
