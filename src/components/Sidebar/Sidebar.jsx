@@ -18,10 +18,13 @@ const Sidebar = () => {
                             <a href="#about">About me</a>
                         </li>
                         <li className='border-b-[1.5px] w-fit pr-[20px]'>
-                            <a href="#home">Skills</a>
+                            <a href="#portfolio">Skills</a>
                         </li>
                         <li className='border-b-[1.5px] w-fit pr-[20px]'>
-                            <a href="#home">Testimonial</a>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li className='border-b-[1.5px] w-fit pr-[20px]'>
+                            <a href="#testimonial">Testimonial</a>
                         </li>
                         <li className='border-b-[1.5px] w-fit pr-[20px]'>
                             <a href="#home">Dribble</a>
