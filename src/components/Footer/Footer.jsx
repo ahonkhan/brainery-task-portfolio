@@ -21,7 +21,7 @@ const FooterSection = () => {
                         </div>
                         <ul className={`${style.navMenu} flex shrink-0 items-center gap-[32px] 3xl:gap-[42.67px]`}>
                             <li className={`${style.navList}`}>
-                                <a href='#navbar' className={`${style.navLink}`}>Home</a>
+                                <a href='#home' className={`${style.navLink}`}>Home</a>
                             </li>
 
                             <li className={`${style.navList}`}>
@@ -37,16 +37,16 @@ const FooterSection = () => {
                             </li>
                         </ul>
                         <div className="flex md:justify-end items-center gap-3 md:gap-5 nav__button md:w-[368px] 2xl:w-[490.67px]">
-                            <a href="">
+                            <a href="#">
                                 <img className='2xl:w-[32px]' src={facebook} alt="" />
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <img className='2xl:w-[32px]' src={insta} alt="" />
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <img className='2xl:w-[32px]' src={twitter} alt="" />
                             </a>
-                            <a href="">
+                            <a href="#">
                                 <img className='2xl:w-[32px]' src={linkedin} alt="" />
                             </a>
                         </div>

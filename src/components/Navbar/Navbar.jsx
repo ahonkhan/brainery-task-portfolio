@@ -30,7 +30,7 @@ const Navbar = () => {
                     <div className="nav-col hidden md:block  lg:w-[276px] 3xl:w-[368.67px]"></div>
                     <ul className={`${style.navMenu} hidden md:flex shrink-0 items-center gap-[32px] 3xl:gap-[42.67px]`}>
                         <li className={`${style.navList}`}>
-                            <a href='#navbar' className={`${style.navLink} activeNav`}>Home</a>
+                            <a href='#home' className={`${style.navLink} activeNav`}>Home</a>
                         </li>
 
                         <li className={`${style.navList}`}>
